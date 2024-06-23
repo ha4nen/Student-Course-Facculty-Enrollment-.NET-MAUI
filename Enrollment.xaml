@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exam.Enrollment"
+             Title="Enrollment">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout  Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Select Student" HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="10"/>
+
+                <ScrollView>
+                    <ListView x:Name="Stu_List_View" ItemTapped="Stu_List_View_ItemTapped">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                        <Label Text="{Binding Student_Id}" Margin="5"/>
+                                        <Label Text="{Binding Student_Name}" Margin="5"/>
+                                        <Label Text="{Binding Student_Department}" Margin="5"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Select Course" HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="10"/>
+
+                <ScrollView>
+                    <ListView x:Name="Course_List_View" ItemTapped="Course_List_View_ItemTapped">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                        <Label Text="{Binding Course_Code}" Margin="5"/>
+                                        <Label Text="{Binding Course_Name}" Margin="5"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Select Faculty" HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="10"/>
+
+                <ScrollView>
+                    <ListView x:Name="f_List_View" ItemTapped="f_List_View_ItemTapped" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                        <Label Text="{Binding Faculty_Name}" Margin="5"/>
+                                        <Label Text="{Binding Faculty_Department}" Margin="5"/>
+                                        <Label Margin="5">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="Roles: "/>
+                                                    <Span Text="{Binding IsDean, StringFormat='Dean: {0}'}"/>
+                                                    <Span Text=", "/>
+                                                    <Span Text="{Binding IsHeadOfDepartment, StringFormat='HOD: {0}'}"/>
+                                                    <Span Text=", "/>
+                                                    <Span Text="{Binding IsProfessor, StringFormat='Professor: {0}'}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Button x:Name="Button_Add" Text="Add" Clicked="Button_Add_Clicked" BackgroundColor="White" Margin="10" Padding="40,20"/>
+            <Button x:Name="Button_show" Text="Show" Clicked="Button_show_Clicked" BackgroundColor="White" Margin="10" Padding="40,20"/>
+
+            <Label Text="Enrollments" HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="40,20"/>
+        </StackLayout>
+
+        <ScrollView>
+            <ListView x:Name="Enrollments_List_View" ItemTapped="Enrollments_List_View_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                <Label Text="{Binding Student_Name}" Margin="5"/>
+                                <Label Text="{Binding Cousre_Name}" Margin="5"/>
+                                <Label Text="{Binding Faculty_Name}" Margin="5"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </ScrollView>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+            <Button x:Name="Button_delete" Text="Delete" Clicked="Button_delete_Clicked" BackgroundColor="White" Margin="10" Padding="40,20"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

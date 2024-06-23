@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exam.Course"
+             Title="Course">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" >
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+                <Label Text="course name" HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="10"/>
+                <Label Text="course code"  HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="10"/>
+            </StackLayout>
+            <StackLayout>
+                <Entry x:Name="Course_Name" BackgroundColor="Pink" Margin="10"/>
+                <Entry x:Name="Course_Code" BackgroundColor="Pink" Margin="10"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Button x:Name="Button_Add" Text="Add" Clicked="Button_Add_Clicked" BackgroundColor="White" Margin="10" Padding="30,18"/>
+            <Button x:Name="Button_show" Text="Show" Clicked="Button_show_Clicked" BackgroundColor="White" Margin="10" Padding="30,18" />
+
+            <Label Text="Student" HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="30,18" />
+        </StackLayout>
+
+        <ScrollView>
+            <ListView x:Name="c_List_View" ItemTapped="c_List_View_ItemTapped" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                <Label Text="{Binding Course_Name}" Margin="5"/>
+                                <Label Text="{Binding Course_Code}" Margin="5"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Button x:Name="Button_delete" Text="Delete" Clicked="Button_delete_Clicked" BackgroundColor="White" Margin="10" Padding="30,18"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

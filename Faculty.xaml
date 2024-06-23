@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exam.Faculty"
+             Title="Faculty">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" >
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+                <Label Text="Faculty_Name" HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="10"/>
+                <Label Text="Faculty_Department"  HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="10"/>
+            </StackLayout>
+            <StackLayout>
+                <Entry x:Name="Faculty_Name" BackgroundColor="Pink" Margin="10"/>
+                <Entry x:Name="Faculty_Department" BackgroundColor="Pink" Margin="10"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Roles" HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="10"/>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                <CheckBox x:Name="Dean_CheckBox" Margin="12"/>
+                <Label Text="Dean" VerticalOptions="Center" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                <CheckBox x:Name="HOD_CheckBox" Margin="12"/>
+                <Label Text="Head of Department" VerticalOptions="Center" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                <CheckBox x:Name="Professor_CheckBox" Margin="12"/>
+                <Label Text="Professor" VerticalOptions="Center" />
+            </StackLayout>
+            <!-- Add more roles as needed -->
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Button x:Name="Button_Add" Text="Add" Clicked="Button_Add_Clicked" BackgroundColor="White" Margin="10" Padding="30,18"/>
+            <Button x:Name="Button_show" Text="Show" Clicked="Button_show_Clicked" BackgroundColor="White" Margin="10" Padding="30,18" />
+
+            <Label Text="Faculty" HorizontalTextAlignment="Center" BackgroundColor="HOTPink" Margin="12" Padding="30,18" />
+        </StackLayout>
+
+        <ScrollView>
+            <ListView x:Name="f_List_View" ItemTapped="f_List_View_ItemTapped" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                                <Label Text="{Binding Faculty_Name}" Margin="5"/>
+                                <Label Text="{Binding Faculty_Department}" Margin="5"/>
+                                <Label Margin="5">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Roles: "/>
+                                            <Span Text="{Binding IsDean, StringFormat='Dean: {0}'}"/>
+                                            <Span Text=", "/>
+                                            <Span Text="{Binding IsHeadOfDepartment, StringFormat='HOD: {0}'}"/>
+                                            <Span Text=", "/>
+                                            <Span Text="{Binding IsProfessor, StringFormat='Professor: {0}'}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Button x:Name="Button_delete" Text="Delete" Clicked="Button_delete_Clicked" BackgroundColor="White" Margin="10" Padding="30,18"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

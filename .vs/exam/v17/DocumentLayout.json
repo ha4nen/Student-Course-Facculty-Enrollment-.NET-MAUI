@@ -1,0 +1,320 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\student.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:student.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\enrollment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:enrollment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\models\\facultyclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:models\\facultyclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\models\\enrollclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:models\\enrollclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\faculty.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:faculty.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\models\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:models\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\datatransactions\\dbtrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:datatransactions\\dbtrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\models\\courseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:models\\courseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\models\\studentclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:models\\studentclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\enrollment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:enrollment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\course.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:course.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\faculty.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:faculty.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\course.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:course.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\student.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:student.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|c:\\users\\asus\\desktop\\third year\\mobile programming\\maui apps\\exam\\exam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D30BD3F9-7ECB-4EE9-BFC5-FB8307B506C6}|exam.csproj|solutionrelative:exam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnrollClass.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\EnrollClass.cs",
+              "RelativeDocumentMoniker": "Models\\EnrollClass.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\EnrollClass.cs",
+              "RelativeToolTip": "Models\\EnrollClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:52:08.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FacultyClass.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\FacultyClass.cs",
+              "RelativeDocumentMoniker": "Models\\FacultyClass.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\FacultyClass.cs",
+              "RelativeToolTip": "Models\\FacultyClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:52:25.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Global.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\Global.cs",
+              "RelativeDocumentMoniker": "Models\\Global.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\Global.cs",
+              "RelativeToolTip": "Models\\Global.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:52:35.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentClass.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\StudentClass.cs",
+              "RelativeDocumentMoniker": "Models\\StudentClass.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\StudentClass.cs",
+              "RelativeToolTip": "Models\\StudentClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:51:38.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:05:12.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:05:38.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T19:07:51.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Faculty.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Faculty.xaml.cs",
+              "RelativeDocumentMoniker": "Faculty.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Faculty.xaml.cs",
+              "RelativeToolTip": "Faculty.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:38:27.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enrollment.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Enrollment.xaml.cs",
+              "RelativeDocumentMoniker": "Enrollment.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Enrollment.xaml.cs",
+              "RelativeToolTip": "Enrollment.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:49:20.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Student.xaml",
+              "RelativeDocumentMoniker": "Student.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Student.xaml",
+              "RelativeToolTip": "Student.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T19:07:02.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBTrans.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\DataTransactions\\DBTrans.cs",
+              "RelativeDocumentMoniker": "DataTransactions\\DBTrans.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\DataTransactions\\DBTrans.cs",
+              "RelativeToolTip": "DataTransactions\\DBTrans.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAwwGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:01:13.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseClass.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\CourseClass.cs",
+              "RelativeDocumentMoniker": "Models\\CourseClass.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Models\\CourseClass.cs",
+              "RelativeToolTip": "Models\\CourseClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T18:51:52.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Enrollment.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Enrollment.xaml",
+              "RelativeDocumentMoniker": "Enrollment.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Enrollment.xaml",
+              "RelativeToolTip": "Enrollment.xaml",
+              "ViewState": "AQIAAFsAAAAAAAAAAIBJwGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T19:07:48.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Course.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Course.xaml.cs",
+              "RelativeDocumentMoniker": "Course.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Course.xaml.cs",
+              "RelativeToolTip": "Course.xaml.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwDQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:30:04.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Course.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Course.xaml",
+              "RelativeDocumentMoniker": "Course.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Course.xaml",
+              "RelativeToolTip": "Course.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwCoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T19:07:13.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Faculty.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Faculty.xaml",
+              "RelativeDocumentMoniker": "Faculty.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Faculty.xaml",
+              "RelativeToolTip": "Faculty.xaml",
+              "ViewState": "AQIAACQAAAAAAAAAAIBJwEIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T19:07:29.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Student.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Student.xaml.cs",
+              "RelativeDocumentMoniker": "Student.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\Student.xaml.cs",
+              "RelativeToolTip": "Student.xaml.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwEsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:10:37.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "exam.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\exam.csproj",
+              "RelativeDocumentMoniker": "exam.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Third year\\mobile programming\\Maui Apps\\exam\\exam.csproj",
+              "RelativeToolTip": "exam.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T18:51:07.2Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
